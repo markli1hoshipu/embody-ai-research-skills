@@ -1,0 +1,25 @@
+{
+  "name": "embody-ai-research-skills",
+  "owner": {
+    "name": "Embody AI",
+    "email": "markli1hoshipu@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "AI research skills and agents for scientific workflows",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "embody-research-skills",
+      "description": "Collection of AI research workflow skills — paper search, critique, experiment design, literature review",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/arxiv-search",
+        "./skills/paper-critique",
+        "./skills/experiment-design",
+        "./skills/literature-review"
+      ]
+    }
+  ]
+}
