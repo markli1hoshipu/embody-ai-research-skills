@@ -2,6 +2,18 @@
 
 AI research skills and agents for Claude Code, Codex, and other AI coding agents.
 
+Embody provides its own research workflow skills and agents that **compose with** third-party skill libraries — particularly [K-Dense Scientific Skills](https://github.com/K-Dense-AI/claude-scientific-skills) (136+ scientific computing skills).
+
+## Prerequisites
+
+Install the following plugin for full agent functionality:
+
+```bash
+# K-Dense Scientific Skills (required by agents)
+/plugin marketplace add K-Dense-AI/claude-scientific-skills
+/plugin install scientific-skills@claude-scientific-skills --scope user
+```
+
 ## Skills
 
 | Skill | Description |
@@ -15,8 +27,10 @@ AI research skills and agents for Claude Code, Codex, and other AI coding agents
 
 | Agent | Skills Used | Description |
 |-------|-------------|-------------|
-| `research-assistant` | arxiv-search, paper-critique, literature-review | End-to-end research exploration |
-| `experiment-planner` | experiment-design, literature-review, arxiv-search | Design experiments grounded in prior work |
+| `research-assistant` | arxiv-search, paper-critique, literature-review + K-Dense skills | End-to-end research exploration |
+| `experiment-planner` | experiment-design, literature-review, arxiv-search + K-Dense skills | Design experiments grounded in prior work |
+
+Agents compose Embody's own skills with K-Dense plugin skills (e.g. `scientific-skills:scanpy`, `scientific-skills:rdkit`). See [Prerequisites](#prerequisites).
 
 ## Install
 

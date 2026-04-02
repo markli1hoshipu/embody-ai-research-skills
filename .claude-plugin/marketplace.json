@@ -6,19 +6,17 @@
   },
   "metadata": {
     "description": "AI research skills and agents for scientific workflows",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "embody-research-skills",
-      "description": "Collection of AI research workflow skills — paper search, critique, experiment design, literature review",
+      "description": "AI research workflow skills. Agents compose with K-Dense Scientific Skills (install separately).",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/arxiv-search",
-        "./skills/paper-critique",
-        "./skills/experiment-design",
-        "./skills/literature-review"
+        "./skills/behavior-1k-environment",
+        "./skills/xvla-evaluation"
       ]
     }
   ]
