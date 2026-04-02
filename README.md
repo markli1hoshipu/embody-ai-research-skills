@@ -18,10 +18,10 @@ Install the following plugin for full agent functionality:
 
 | Skill | Description |
 |-------|-------------|
-| `arxiv-search` | Search arXiv for papers by topic, author, or ID |
-| `paper-critique` | Critically evaluate research methodology and claims |
-| `experiment-design` | Design rigorous experiments with controls and metrics |
-| `literature-review` | Conduct structured literature reviews across sources |
+| `behavior-1k-environment` | Set up Behavior-1K simulation environment |
+| `xvla-evaluation` | Evaluate X-VLA models on robotics benchmarks |
+| `deploy-libero-plus` | Set up LIBERO-Plus robustness benchmark (env, assets, patches, task categories) |
+| `eval-lingbot-va` | Run LingBot-VA evaluation on LIBERO-Plus with SLURM (server-client, parallelization, monitoring) |
 
 ## Agents
 
