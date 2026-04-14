@@ -22,6 +22,7 @@ Install the following plugin for full agent functionality:
 | `xvla-evaluation` | Evaluate X-VLA models on robotics benchmarks |
 | `deploy-libero-plus` | Set up LIBERO-Plus robustness benchmark (env, assets, patches, task categories) |
 | `eval-lingbot-va` | Run LingBot-VA evaluation on LIBERO-Plus with SLURM (server-client, parallelization, monitoring) |
+| `eval-fastwam` | Deploy and evaluate FastWAM on LIBERO/LIBERO-Plus (single-process, multi-GPU parallelization) |
 
 ## Agents
 
